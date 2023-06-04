@@ -23,7 +23,7 @@ calcu.post("/",function(req,res){
     var h=Number(req.body.Height);
     var w=Number(req.body.Weight);
     var n=w/(h*h);
-    res.send("Your BMI is "+ n);
+    res.send("Your Body Mass Index is "+ n);
 
 });
 calcu.listen(3000, function(){
